@@ -12,7 +12,7 @@ export default function AboutPage() {
         <section className={styles.section}>
           <h2>The Beginning</h2>
           <p>
-            Founded in 2024, Brookus Innovation Pvt. Ltd. was born out of a desire 
+            Founded in 2025, Brookus Innovation Pvt. Ltd. was born out of a desire 
             to bridge the gap between high-performance technology and the timeless 
             elegance of handcrafted goods. We believed that the objects we use 
             daily—our laptops, our bags, our home appliances—should not only 
