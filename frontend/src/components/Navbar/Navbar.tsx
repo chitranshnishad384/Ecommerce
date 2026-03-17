@@ -17,10 +17,10 @@ const Navbar = () => {
         </div>
         
         <ul className={`${styles.links} ${isOpen ? styles.active : ''}`}>
-          <li><Link href="/">Home</Link></li>
-          <li><Link href="/shop">Shop</Link></li>
-          <li><Link href="/about">About</Link></li>
-          <li><Link href="/contact">Contact</Link></li>
+          <li><Link href="/" onClick={() => setIsOpen(false)}>Home</Link></li>
+          <li><Link href="/shop" onClick={() => setIsOpen(false)}>Shop</Link></li>
+          <li><Link href="/about" onClick={() => setIsOpen(false)}>About</Link></li>
+          <li><Link href="/contact" onClick={() => setIsOpen(false)}>Contact</Link></li>
         </ul>
 
         <div className={styles.actions}>

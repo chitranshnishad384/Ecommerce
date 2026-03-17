@@ -182,16 +182,46 @@
 }
 
 @media (max-width: 600px) {
+  .page {
+    padding-top: 3rem;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+  }
+  
   .tableHeader {
     display: none;
   }
   
   .item {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 1.5rem;
+    padding: 2rem 0;
+  }
+  
+  .productInfo {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .imageWrapper {
+    width: 100%;
+    aspect-ratio: 16/9;
+  }
+  
+  .qtyControl {
+    width: 100%;
+    justify-content: space-between;
   }
   
   .itemTotal {
-    text-align: left;
+    text-align: right;
+    width: 100%;
+  }
+
+  .summaryCard {
+    padding: 1.5rem;
   }
 }
