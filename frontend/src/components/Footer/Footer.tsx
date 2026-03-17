@@ -29,18 +29,9 @@ const Footer = () => {
               <ul>
                 <li><Link href="/about">About Us</Link></li>
                 <li><Link href="/contact">Contact</Link></li>
-                <li><Link href="/faq">FAQ</Link></li>
               </ul>
             </div>
             
-            <div className={styles.linkColumn}>
-              <h4>Support</h4>
-              <ul>
-                <li><Link href="/shipping">Shipping</Link></li>
-                <li><Link href="/returns">Returns</Link></li>
-                <li><Link href="/privacy">Privacy Policy</Link></li>
-              </ul>
-            </div>
           </div>
         </div>
         
