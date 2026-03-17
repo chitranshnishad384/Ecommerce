@@ -1,0 +1,89 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.breadcrumb {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent-dark);
+}
+
+.title {
+  font-size: 3rem;
+  line-height: 1.1;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-bottom: 1px solid var(--accent-mid);
+  padding-bottom: 1.5rem;
+}
+
+.description {
+  color: var(--text-muted);
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.actions {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--accent-mid);
+  padding: 0.5rem 1rem;
+  gap: 1.5rem;
+}
+
+.quantity button {
+  padding: 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+.quantity span {
+  width: 20px;
+  text-align: center;
+}
+
+.addToCart {
+  flex: 1;
+  background: var(--secondary);
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: var(--transition-smooth);
+}
+
+.addToCart:hover {
+  opacity: 0.8;
+}
+
+.details {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.detailItem h4 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+  color: var(--secondary);
+}
+
+.detailItem p {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}

@@ -1,0 +1,60 @@
+import Link from 'next/link';
+import styles from './Footer.module.css';
+
+const Footer = () => {
+  return (
+    <footer className={styles.footer}>
+      <div className={`${styles.container} container`}>
+        <div className={styles.top}>
+          <div className={styles.brand}>
+            <h2 className={styles.logo}>BROOKUS</h2>
+            <p className={styles.desc}>
+              Minimalist luxury electronics and handcrafted leather goods. 
+              Elevating your lifestyle through exceptional design.
+            </p>
+          </div>
+          
+          <div className={styles.links}>
+            <div className={styles.linkColumn}>
+              <h4>Shop</h4>
+              <ul>
+                <li><Link href="/shop?category=Leather Bags">Leather Bags</Link></li>
+                <li><Link href="/shop?category=Electronic Goods">Electronic Goods</Link></li>
+                <li><Link href="/shop?category=Home Electronics">Home Electronics</Link></li>
+              </ul>
+            </div>
+            
+            <div className={styles.linkColumn}>
+              <h4>Company</h4>
+              <ul>
+                <li><Link href="/about">About Us</Link></li>
+                <li><Link href="/contact">Contact</Link></li>
+                <li><Link href="/faq">FAQ</Link></li>
+              </ul>
+            </div>
+            
+            <div className={styles.linkColumn}>
+              <h4>Support</h4>
+              <ul>
+                <li><Link href="/shipping">Shipping</Link></li>
+                <li><Link href="/returns">Returns</Link></li>
+                <li><Link href="/privacy">Privacy Policy</Link></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <div className={styles.bottom}>
+          <p>&copy; {new Date().getFullYear()} Brookus Innovation Pvt. Ltd. All rights reserved.</p>
+          <div className={styles.social}>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;

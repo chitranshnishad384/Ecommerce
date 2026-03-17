@@ -1,0 +1,27 @@
+.wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.tag {
+  position: absolute;
+  font-size: 0.65rem;
+  letter-spacing: 0.4em;
+  color: var(--secondary);
+  opacity: 0.1;
+  white-space: nowrap;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .tag {
+    display: none;
+  }
+}
