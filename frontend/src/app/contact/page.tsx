@@ -12,7 +12,7 @@ export default function ContactPage() {
         <div className={styles.info}>
           <div className={styles.item}>
             <h4>Inquiries</h4>
-            <p>hello@brookus.com</p>
+            <p>hello@everopen.shop</p>
           </div>
           <div className={styles.item}>
             <h4>Headquarters</h4>

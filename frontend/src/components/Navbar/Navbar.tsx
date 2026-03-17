@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className={styles.nav}>
       <div className={`${styles.container} container`}>
         <div className={styles.logo}>
-          <Link href="/">BROOKUS</Link>
+          <Link href="/">EVEROPEN</Link>
         </div>
         
         <ul className={`${styles.links} ${isOpen ? styles.active : ''}`}>

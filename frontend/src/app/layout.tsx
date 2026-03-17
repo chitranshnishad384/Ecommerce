@@ -6,7 +6,7 @@ import { CartProvider } from "@/context/CartContext";
 import BackgroundElements from "@/components/BackgroundElements/BackgroundElements";
 
 export const metadata: Metadata = {
-  title: "BROOKUS | Luxury Electronics & Leather Goods",
+  title: "EVEROPEN | Luxury Electronics & Leather Goods",
   description: "Modern, minimal, and luxurious e-commerce for premium electronics and handcrafted leather bags.",
 };
 

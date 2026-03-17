@@ -1,7 +1,7 @@
 Create a **modern basic e-commerce website** with a **minimal yet luxurious design style**.
 
 **Business Details:**
-Business Name: Brookus Innovation Pvt. Ltd.
+Business Name: Everopen Innovation Pvt. Ltd.
 
 **Products:**
 The store will sell **electronic goods and leather bags with related accessories**.

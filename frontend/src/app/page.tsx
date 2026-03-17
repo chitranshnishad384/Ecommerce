@@ -17,12 +17,12 @@ export default function Home() {
         <div className={styles.decorLineVertical} />
         <div className={styles.decorCorner} />
         <div className={`${styles.heroContent} container`}>
-          <span className={styles.tagline}>Est. 2024</span>
+          <span className={styles.tagline}>Est. 2025</span>
           <h1 className={styles.title}>
             Refined Electronics <br /> & Timeless Leather
           </h1>
           <p className={styles.description}>
-            Curated selection of premium electronic goods and handcrafted leather bags 
+            Curated selection of premium electronic goods and handcrafted leather bags
             designed for those who appreciate the finer things.
           </p>
           <div className={styles.cta}>
@@ -77,8 +77,8 @@ export default function Home() {
           <div className={styles.statementContent}>
             <h2>Crafted with Precision</h2>
             <p>
-              At Brookus Innovation, we believe that quality is not just a feature, 
-              it's a commitment. From the grain of our leather to the precision 
+              At Everopen Innovation, we believe that quality is not just a feature,
+              it's a commitment. From the grain of our leather to the precision
               of our electronics, every detail is considered.
             </p>
           </div>

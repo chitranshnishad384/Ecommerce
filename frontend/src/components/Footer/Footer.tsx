@@ -7,7 +7,7 @@ const Footer = () => {
       <div className={`${styles.container} container`}>
         <div className={styles.top}>
           <div className={styles.brand}>
-            <h2 className={styles.logo}>BROOKUS</h2>
+            <h2 className={styles.logo}>EVEROPEN</h2>
             <p className={styles.desc}>
               Minimalist luxury electronics and handcrafted leather goods. 
               Elevating your lifestyle through exceptional design.
@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
         
         <div className={styles.bottom}>
-          <p>&copy; {new Date().getFullYear()} Brookus Innovation Pvt. Ltd. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Everopen Innovation Pvt. Ltd. All rights reserved.</p>
           <div className={styles.social}>
             <a href="#">Instagram</a>
             <a href="#">Twitter</a>
