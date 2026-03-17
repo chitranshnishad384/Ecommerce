@@ -40,15 +40,15 @@ export default function Home() {
       <section className={styles.categories}>
         <div className="container">
           <div className={styles.categoryGrid}>
-            <Link href="/shop?category=Leather Bags" className={styles.categoryCard}>
+            <Link href="/category/leather-bags" className={styles.categoryCard}>
               <h3>Leather Bags</h3>
               <p>Handcrafted Excellence</p>
             </Link>
-            <Link href="/shop?category=Electronic Goods" className={styles.categoryCard}>
+            <Link href="/category/electronic-goods" className={styles.categoryCard}>
               <h3>Electronics</h3>
               <p>Cutting-edge Tech</p>
             </Link>
-            <Link href="/shop?category=Home Electronics" className={styles.categoryCard}>
+            <Link href="/category/home-electronics" className={styles.categoryCard}>
               <h3>Home</h3>
               <p>Modern Living</p>
             </Link>

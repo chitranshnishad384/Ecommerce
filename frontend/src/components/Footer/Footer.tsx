@@ -18,9 +18,9 @@ const Footer = () => {
             <div className={styles.linkColumn}>
               <h4>Shop</h4>
               <ul>
-                <li><Link href="/shop?category=Leather Bags">Leather Bags</Link></li>
-                <li><Link href="/shop?category=Electronic Goods">Electronic Goods</Link></li>
-                <li><Link href="/shop?category=Home Electronics">Home Electronics</Link></li>
+                <li><Link href="/category/leather-bags">Leather Bags</Link></li>
+                <li><Link href="/category/electronic-goods">Electronic Goods</Link></li>
+                <li><Link href="/category/home-electronics">Home Electronics</Link></li>
               </ul>
             </div>
             
