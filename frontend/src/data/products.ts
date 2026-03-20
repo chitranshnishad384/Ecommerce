@@ -5,552 +5,660 @@ export interface Product {
   price: number;
   description: string;
   image: string;
+  images?: string[];
 }
 
 export const products: Product[] = [
-  // --- Leather Bags (20 items) ---
-  {
-    id: 'lb-1',
-    name: 'Executive Leather Briefcase',
-    category: 'Leather Bags',
-    price: 19900,
-    image: '/images/Leather/leather-bag-1.jpg',
-    description: 'The definitive companion for the modern executive. Handcrafted from premium full-grain Italian leather, this briefcase features a padded 16-inch laptop compartment and brushed steel hardware.'
-  },
+
+  // --- Leather Bags ---
   {
     id: 'lb-2',
-    name: 'Weekend Voyager Duffle',
+    name: 'HAMMONDS FLYCATCHER Genuine Leather Office Bag',
     category: 'Leather Bags',
-    price: 28900,
-    image: '/images/Leather/leather-bag-2.jpg',
-    description: 'Travel in unparalleled style with our flagship duffle. Designed for 48-hour getaways, it offers a spacious main compartment and a separate shoe compartment.'
-  },
-  {
-    id: 'lb-3',
-    name: 'Urban Minimalist Backpack',
-    category: 'Leather Bags',
-    price: 15900,
-    image: '/images/Leather/leather-bag-3.jpg',
-    description: 'A seamless blend of urban versatility and classic luxury. This minimalist backpack features hidden magnetic closures and an ergonomic profile for daily commuting.'
-  },
-  {
-    id: 'lb-4',
-    name: 'Precision Slim Wallet',
-    category: 'Leather Bags',
-    price: 6400,
-    image: '/images/Leather/leather-bag-4.jpg',
-    description: 'The pinnacle of minimalist carry. Our slim bi-fold wallet is engineered to reduce bulk while maintaining capacity for cards and cash.'
+    price: 4399,
+    image: 'https://m.media-amazon.com/images/I/81oDX2BJoqL._AC_SL500_.jpg',
+    images: [
+      'https://m.media-amazon.com/images/I/81oDX2BJoqL._AC_SL500_.jpg',
+      'https://m.media-amazon.com/images/I/819yREAmanL._AC_SL500_.jpg',
+      'https://m.media-amazon.com/images/I/71sEAzKpQnL._AC_SL500_.jpg',
+      'https://m.media-amazon.com/images/I/818G1ErGG+L._AC_SL500_.jpg',
+    ],
+    description: 'HAMMONDS FLYCATCHER genuine leather office bag with a spacious padded 16" laptop compartment, brass zip pulls, multiple interior pockets, and a trolley sleeve — crafted for the modern professional.'
   },
   {
     id: 'lb-5',
-    name: 'Heritage Messenger Bag',
+    name: 'Fur Jaden Brown Textured Leatherette Duffle Bag',
     category: 'Leather Bags',
-    price: 17900,
-    image: '/images/Leather/leather-bag-5.jpg',
-    description: 'Inspired by traditional postal bags. This vintage-treated leather messenger bag accommodates an 11-inch tablet with rugged brass hardware.'
+    price: 839,
+    image: 'https://m.media-amazon.com/images/I/71-8gqDAalL._AC_SL500_.jpg',
+    images: [
+      'https://m.media-amazon.com/images/I/71-8gqDAalL._AC_SL500_.jpg',
+      'https://m.media-amazon.com/images/I/71AtHuUWe5L._AC_SL500_.jpg',
+      'https://m.media-amazon.com/images/I/81RtwUjQiFL._AC_SL500_.jpg',
+      'https://m.media-amazon.com/images/I/71T0fZi6uML._AC_SL500_.jpg',
+    ],
+    description: 'Fur Jaden Brown textured leatherette duffle bag perfect for short trips and gym. Features a large main compartment, exterior zip pocket, detachable adjustable shoulder strap, and sturdy carry handles.'
   },
   {
     id: 'lb-6',
-    name: 'Pebble-Grain Luxury Tote',
+    name: 'Red Lemon Swiss Cut Design Laptop Backpack',
     category: 'Leather Bags',
-    price: 14500,
-    image: '/images/Leather/leather-bag-6.jpg',
-    description: 'An elegant solution for everyday essentials. This spacious tote bag is crafted from textured pebble-grain leather for a timeless aesthetic.'
+    price: 1795,
+    image: 'https://m.media-amazon.com/images/I/61o3NqZ+13L._AC_SL500_.jpg',
+    images: [
+      'https://m.media-amazon.com/images/I/61o3NqZ+13L._AC_SL500_.jpg',
+      'https://m.media-amazon.com/images/I/818G1ErGG+L._AC_SL500_.jpg',
+      'https://m.media-amazon.com/images/I/819yREAmanL._AC_SL500_.jpg',
+      'https://m.media-amazon.com/images/I/71sEAzKpQnL._AC_SL500_.jpg',
+    ],
+    description: 'Red Lemon Swiss Cut Design laptop backpack in premium PU leather. Features a padded 15.6" laptop sleeve, anti-theft back pocket, USB charging port, waterproof base, and multiple organizer pockets.'
   },
   {
     id: 'lb-7',
-    name: 'Digital Organizer Pouch',
+    name: 'FUR JADEN Vegan Leather Laptop Backpack',
     category: 'Leather Bags',
-    price: 4900,
-    image: '/images/Leather/leather-bag-7.jpg',
-    description: 'Elevate your organization. This compact tech pouch is designed to house your cables, chargers, and small digital accessories.'
-  },
-  {
-    id: 'lb-8',
-    name: 'Artisan Full-Grain Belt',
-    category: 'Leather Bags',
-    price: 7500,
-    image: '/images/Leather/leather-bag-8.jpg',
-    description: 'A staple of any refined wardrobe. Cut from a single piece of thick full-grain leather and finished with a solid brass buckle.'
-  },
-  {
-    id: 'lb-9',
-    name: 'Nappa Leather Card Holder',
-    category: 'Leather Bags',
-    price: 3900,
-    image: '/images/Leather/leather-bag-9.jpg',
-    description: 'Designed for the true minimalist. This ultra-slim card holder features precision-cut slots for your most essential cards.'
+    price: 1899,
+    image: 'https://m.media-amazon.com/images/I/710-6xeKTcL._AC_SL500_.jpg',
+    images: [
+      'https://m.media-amazon.com/images/I/710-6xeKTcL._AC_SL500_.jpg',
+      'https://m.media-amazon.com/images/I/715ixGc6DZL._AC_SL500_.jpg',
+      'https://m.media-amazon.com/images/I/81Bdhfm7UuL._AC_SL500_.jpg',
+      'https://m.media-amazon.com/images/I/71X+ke2huIL._AC_SL500_.jpg',
+    ],
+    description: 'FUR JADEN premium vegan leather laptop backpack with padded 15.6" sleeve, external USB port, anti-theft back pocket, multiple compartments, and a water-resistant leatherette exterior.'
   },
   {
     id: 'lb-10',
-    name: 'Classic Structured Satchel',
+    name: 'RIONTO Prime 15.6" Laptop Messenger Bag',
     category: 'Leather Bags',
-    price: 16900,
-    image: '/images/Leather/leather-bag-10.jpg',
-    description: 'A heritage design reimagined. This handcrafted leather satchel fits a 13-inch laptop with traditional buckle closures.'
+    price: 1579,
+    image: 'https://m.media-amazon.com/images/I/71sEAzKpQnL._AC_SL500_.jpg',
+    images: [
+      'https://m.media-amazon.com/images/I/71sEAzKpQnL._AC_SL500_.jpg',
+      'https://m.media-amazon.com/images/I/61o3NqZ+13L._AC_SL500_.jpg',
+      'https://m.media-amazon.com/images/I/81oDX2BJoqL._AC_SL500_.jpg',
+      'https://m.media-amazon.com/images/I/818G1ErGG+L._AC_SL500_.jpg',
+    ],
+    description: 'RIONTO Prime laptop messenger bag in premium PU leather. Features a padded 15.6" laptop sleeve, front organizer panel with pen holders, adjustable cross-body strap, and multiple interior pockets.'
   },
   {
     id: 'lb-11',
-    name: 'Executive Grooming Kit',
+    name: 'Leather World Vegan Leather Office Briefcase',
     category: 'Leather Bags',
-    price: 8500,
-    image: '/images/Leather/leather-bag-11.jpg',
-    description: 'The ultimate travel companion. Our leather wash bag features a waterproof lining and internal mesh pockets for your essentials.'
-  },
-  {
-    id: 'lb-12',
-    name: 'Professional Camera Bag',
-    category: 'Leather Bags',
-    price: 14900,
-    image: '/images/Leather/leather-bag-12.jpg',
-    description: 'Luxury protection for your creative gear. This padded leather bag is designed for mirrorless and compact DSLR systems.'
-  },
-  {
-    id: 'lb-13',
-    name: 'Artisan Portfolio Sleeve',
-    category: 'Leather Bags',
-    price: 11900,
-    image: '/images/Leather/leather-bag-13.jpg',
-    description: 'Make a statement in the boardroom. This elegant portfolio features a dedicated tablet sleeve and premium hand-stitched leather.'
+    price: 898,
+    image: 'https://m.media-amazon.com/images/I/819yREAmanL._AC_SL500_.jpg',
+    images: [
+      'https://m.media-amazon.com/images/I/819yREAmanL._AC_SL500_.jpg',
+      'https://m.media-amazon.com/images/I/81oDX2BJoqL._AC_SL500_.jpg',
+      'https://m.media-amazon.com/images/I/61o3NqZ+13L._AC_SL500_.jpg',
+      'https://m.media-amazon.com/images/I/71sEAzKpQnL._AC_SL500_.jpg',
+    ],
+    description: 'Leather World vegan leather office briefcase with a padded laptop compartment, front zip pocket, dual top carry handles, and a trolley strap — a smart, professional choice for office commutes.'
   },
   {
     id: 'lb-14',
-    name: 'Urban Crossbody Sling',
+    name: 'FUR JADEN 15.6" Premium Vegan Leather Backpack',
     category: 'Leather Bags',
-    price: 9900,
-    image: '/images/Leather/messenger.png',
-    description: 'A sleek sling bag for the urban explorer. Features quick-access pockets and a weather-resistant leather finish.'
-  },
-  {
-    id: 'lb-15',
-    name: 'Luxury Passport Sleeve',
-    category: 'Leather Bags',
-    price: 3500,
-    image: '/images/Leather/wallet.png',
-    description: 'Protect your window to the world. Handcrafted from soft Nappa leather with additional slots for travel documents.'
+    price: 1099,
+    image: 'https://m.media-amazon.com/images/I/715ixGc6DZL._AC_SL500_.jpg',
+    images: [
+      'https://m.media-amazon.com/images/I/715ixGc6DZL._AC_SL500_.jpg',
+      'https://m.media-amazon.com/images/I/710-6xeKTcL._AC_SL500_.jpg',
+      'https://m.media-amazon.com/images/I/71X+ke2huIL._AC_SL500_.jpg',
+      'https://m.media-amazon.com/images/I/81f-vgvSvIL._AC_SL500_.jpg',
+    ],
+    description: 'FUR JADEN 15.6" vegan leather backpack with padded laptop sleeve, anti-theft back pocket, USB charging port, organizer front pocket, and water-resistant leatherette — a great everyday carry.'
   },
   {
     id: 'lb-16',
-    name: 'Silent Leather Key Stack',
+    name: 'F Gear Luxur 25L Medium Laptop Backpack',
     category: 'Leather Bags',
-    price: 3200,
-    image: '/images/Leather/wallet.png',
-    description: 'Silence the jingle. This elegant organizer holds up to 7 keys in a quiet, compact stack without scratching your phone.'
-  },
-  {
-    id: 'lb-17',
-    name: 'Officer Briefcase Slate',
-    category: 'Leather Bags',
-    price: 25900,
-    image: '/images/Leather/briefcase.png',
-    description: 'An evolution of professional carry. Features a hidden trolley sleeve and reinforced stress points for the global traveler.'
-  },
-  {
-    id: 'lb-18',
-    name: 'Petite Crossbody Flap',
-    category: 'Leather Bags',
-    price: 10900,
-    image: '/images/Leather/messenger.png',
-    description: 'Compact elegance for daily ventures. Ideally sized for a smartphone and wallet with a secure magnetic flap.'
+    price: 909,
+    image: 'https://m.media-amazon.com/images/I/81RtwUjQiFL._AC_SL500_.jpg',
+    images: [
+      'https://m.media-amazon.com/images/I/81RtwUjQiFL._AC_SL500_.jpg',
+      'https://m.media-amazon.com/images/I/81Bdhfm7UuL._AC_SL500_.jpg',
+      'https://m.media-amazon.com/images/I/71T0fZi6uML._AC_SL500_.jpg',
+      'https://m.media-amazon.com/images/I/519MZPOuITL._AC_SL500_.jpg',
+    ],
+    description: 'F Gear Luxur 25L laptop backpack in premium PU leather finish. Dedicated 15.6" laptop sleeve, front organizer pocket, side water-bottle pocket, and a padded back panel for all-day comfort.'
   },
   {
     id: 'lb-19',
-    name: 'Handwoven Artisan Duffle',
+    name: 'Lifelong Leatherette Weekender Duffle Bag',
     category: 'Leather Bags',
-    price: 39900,
-    image: '/images/Leather/duffle.png',
-    description: 'A masterpiece of craftsmanship. Meticulously handwoven from premium calfskin leather to create a unique, durable texture.'
-  },
-  {
-    id: 'lb-20',
-    name: 'Grand Expedition Duffle',
-    category: 'Leather Bags',
-    price: 34900,
-    image: '/images/Leather/duffle.png',
-    description: 'Our most expansive luggage piece. Designed for extended trips with maximum capacity and reinforced corners.'
+    price: 599,
+    image: 'https://m.media-amazon.com/images/I/71AtHuUWe5L._AC_SL500_.jpg',
+    images: [
+      'https://m.media-amazon.com/images/I/71AtHuUWe5L._AC_SL500_.jpg',
+      'https://m.media-amazon.com/images/I/71-8gqDAalL._AC_SL500_.jpg',
+      'https://m.media-amazon.com/images/I/71T0fZi6uML._AC_SL500_.jpg',
+      'https://m.media-amazon.com/images/I/81RtwUjQiFL._AC_SL500_.jpg',
+    ],
+    description: 'Lifelong leatherette weekender duffle with a large main zip compartment, front zip pocket, detachable adjustable shoulder strap, and reinforced carry handles — great for weekend trips and gym use.'
   },
 
-  // --- Electronic Goods (45 items) ---
+  // --- Electronic Goods ---
+
+  // LAPTOPS
   {
     id: 'eg-1',
-    name: 'Zenith Pro 14 Workstation',
+    name: 'Dell 15 13th Gen Intel Core i5-1334U (16GB/1TB SSD)',
     category: 'Electronic Goods',
-    price: 124900,
-    image: '/images/Laptop.jpg',
-    description: 'A creative powerhouse. Featuring a color-accurate display and high-performance processor in a sleek, professional chassis.'
+    price: 66906,
+    image: 'https://m.media-amazon.com/images/I/611DLBKu8JL._AC_SL500_.jpg',
+    description: 'Dell 15 with 13th Gen Intel Core i5-1334U, 16GB RAM, 1TB SSD, FHD Anti-Glare 15.6" display, Windows 11, Microsoft Office Home 2024, Silver, 1.62kg. Thin & Light with Backlit Keyboard and 12-month McAfee.'
   },
   {
     id: 'eg-2',
-    name: 'Vortex Alpha Smartphone',
+    name: 'Acer Aspire Lite AMD Ryzen 3-5300U (8GB/512GB)',
     category: 'Electronic Goods',
-    price: 32900,
-    image: '/images/Phone.jpg',
-    description: 'Experience pure speed. The Vortex Alpha offers an advanced camera system and bezel-less design for the modern user.'
+    price: 44990,
+    image: 'https://m.media-amazon.com/images/I/513p8BwV-RL._AC_SL500_.jpg',
+    description: 'Acer Aspire Lite with AMD Ryzen 3-5300U, 8GB RAM, 512GB SSD, Full HD 15.6" display, Windows 11 Home, Steel Gray, 1.59 KG. A premium thin and light laptop for everyday productivity.'
   },
   {
     id: 'eg-3',
-    name: 'Stellar View Tablet',
+    name: 'HP Omen 16" i7-14650HX RTX 5050 Gaming Laptop (24GB/1TB)',
     category: 'Electronic Goods',
-    price: 109900,
-    image: '/images/Tablet.jpg',
-    description: 'Your portable studio. A massive, responsive display with precision touch for artist and designers.'
+    price: 162996,
+    image: 'https://m.media-amazon.com/images/I/710as3-Py1L._AC_SL500_.jpg',
+    description: 'HP Omen with Intel Core i7-14650HX, 8GB RTX 5050, 24GB DDR5, 1TB SSD, 165Hz 2K WUXGA 3ms 400nit display, Win11, RGB Backlit Keyboard. The ultimate gaming powerhouse at 2.43kg.'
   },
   {
     id: 'eg-4',
-    name: 'PureAudio Studio Over-Ears',
+    name: 'HP 15 13th Gen Intel Core i5-1335U (16GB/512GB)',
     category: 'Electronic Goods',
-    price: 64900,
-    image: '/images/Headphone.jpg',
-    description: 'Professional grade audio. High-fidelity drivers and comfortable cushions for marathon listening sessions.'
+    price: 72112,
+    image: 'https://m.media-amazon.com/images/I/61nSW9VmhEL._AC_SL500_.jpg',
+    description: 'HP 15 with Intel Core i5-1335U 13th Gen, 16GB DDR4, 512GB SSD, Anti-Glare Micro-Edge FHD 15.6" display, Win11, M365 Basic, Silver, 1.59kg. Features Iris Xe graphics and FHD Camera with privacy shutter.'
   },
   {
     id: 'eg-5',
-    name: 'ClearComm Business Headset',
+    name: 'HP Victus 15.6" i7 RTX 5060 Gaming Laptop (24GB/1TB)',
     category: 'Electronic Goods',
-    price: 44900,
-    image: '/images/Headeset.jpg',
-    description: 'Crystal clear communication. Optimized for long calls with noise-canceling technology and a lightweight frame.'
+    price: 135620,
+    image: 'https://m.media-amazon.com/images/I/71ZDvI4yXAL._AC_SL500_.jpg',
+    description: 'HP Victus with 13th Gen Core i7-13620H, 8GB RTX 5060, 24GB DDR5, 1TB SSD, 144Hz IPS FHD 300nit 15.6" display, Win11, Office 24, Mica Silver, 2.29kg. RGB Backlit gaming laptop.'
   },
   {
     id: 'eg-6',
-    name: 'OmniBook Air 13',
+    name: 'Lenovo IdeaPad Slim 3 i5-13420H (24GB/1TB SSD)',
     category: 'Electronic Goods',
-    price: 24900,
-    image: '/images/Laptop (2).jpg',
-    description: 'The ultimate portable companion. Feather-light design with exceptional battery life for productivity on the go.'
+    price: 87990,
+    image: 'https://m.media-amazon.com/images/I/71D9HSayVSL._AC_SL500_.jpg',
+    description: 'Lenovo IdeaPad Slim 3 with 13th Gen Intel Core i5-13420H, 24GB RAM, 1TB SSD, WUXGA IPS 15.3" display, Windows 11, Office Home 2024, Grey, 1.6Kg. Includes Backlit Keyboard and 1-Year ADP Free warranty.'
   },
   {
     id: 'eg-7',
-    name: 'Nexus Pad Gen 2',
+    name: 'HP 14 Intel Core Ultra 7 155H (24GB DDR5/1TB SSD)',
     category: 'Electronic Goods',
-    price: 12900,
-    image: '/images/Tablet (2).jpg',
-    description: 'Versatile and powerful. A high-resolution screen perfect for media consumption and light creative work.'
+    price: 88415,
+    image: 'https://m.media-amazon.com/images/I/71+svnkr9GL._AC_SL500_.jpg',
+    description: 'HP 14 with Intel Core Ultra 7 155H, 24GB DDR5, 1TB SSD, Micro-Edge Anti-Glare FHD 14" display, Win11, Office 24, Silver, 1.4kg. Features Backlit Keyboard and FHD Camera — a premium AI-ready laptop.'
   },
   {
-    id: 'eg-8',
-    name: 'Stealth Gaming Headphones',
+    id: 'eg-46',
+    name: 'ASUS Vivobook 15 Intel Core i3-1315U (16GB/512GB)',
     category: 'Electronic Goods',
-    price: 18900,
-    image: '/images/Headset (2).jpg',
-    description: 'Immersive soundstage. Low-latency wireless audio with a broadcast-quality microphone for serious gamers.'
+    price: 49990,
+    image: 'https://m.media-amazon.com/images/I/71bIUPAleZL._AC_SL500_.jpg',
+    description: 'ASUS Vivobook 15 with 13th Gen Intel Core i3-1315U, 16GB RAM, 512GB SSD, FHD Anti-Glare 15.6" display, Windows 11 Home, M365 Basic, Cool Silver, 1.70kg. A reliable everyday laptop.'
   },
   {
-    id: 'eg-9',
-    name: 'Horizon Phone Pro',
+    id: 'eg-47',
+    name: 'ASUS Vivobook Go 14 AMD Ryzen 5 7520U (16GB/512GB)',
     category: 'Electronic Goods',
-    price: 189000,
-    image: '/images/Phone (2).jpg',
-    description: 'A new dimension of mobile tech. Features a folding OLED display and professional-grade triple camera setup.'
+    price: 52990,
+    image: 'https://m.media-amazon.com/images/I/71AfM5k3J4L._AC_SL500_.jpg',
+    description: 'ASUS Vivobook Go 14 with AMD Ryzen 5 7520U, 16GB RAM, 512GB SSD, FHD 14" 60Hz display, Windows 11, Office Home 2024, Mixed Black, 1.38kg. Thin & light with 42WHrs battery and M365 Basic.'
   },
   {
-    id: 'eg-10',
-    name: 'AeroStream 15 Laptop',
+    id: 'eg-48',
+    name: 'Acer Nitro V 15 i5-13420H RTX 5050 Gaming (16GB/512GB)',
     category: 'Electronic Goods',
-    price: 54900,
-    image: '/images/Laptop (3).jpg',
-    description: 'Balance of power and price. Features a fast SSD and vibrant display for students and creative professionals.'
+    price: 125599,
+    image: 'https://m.media-amazon.com/images/I/71dlx3fWLsL._AC_SL500_.jpg',
+    description: 'Acer Nitro V 15 gaming laptop with 8-core Intel i5-13420H, GeForce RTX 5050 GDDR7 DLSS4, 16GB RAM, 512GB SSD, 165Hz FHD IPS display, Thunderbolt, WiFi 6, Windows 11. A powerhouse under ₹1.3L.'
   },
   {
-    id: 'eg-11',
-    name: 'Visionary 10" Tablet',
+    id: 'eg-49',
+    name: 'ASUS TUF A15 AMD Ryzen 7 7445HS RTX 3050 (16GB/512GB)',
     category: 'Electronic Goods',
-    price: 8900,
-    image: '/images/Tablet (3).jpg',
-    description: 'Sleek and accessible. The Visionary tablet provides a smooth touch experience and long-lasting battery life.'
+    price: 83990,
+    image: 'https://m.media-amazon.com/images/I/81nPkLHN3vL._AC_SL500_.jpg',
+    description: 'ASUS TUF A15 2025 with AMD Ryzen 7 7445HS, RTX 3050 4GB 75W TGP, 16GB DDR5, 512GB SSD, FHD 144Hz 15.6" display, RGB Keyboard, Windows 11, Graphite Black, 2.3Kg. Built for serious gaming.'
   },
   {
-    id: 'eg-12',
-    name: 'SonicBoom Studio Buds',
+    id: 'eg-50',
+    name: 'Lenovo V15 G4 AMD Athlon Silver 7120U (8GB/512GB)',
     category: 'Electronic Goods',
-    price: 11900,
-    image: '/images/Headset.jpg',
-    description: 'Big sound in a small package. These wireless buds offer deep bass and active noise cancellation.'
+    price: 38000,
+    image: 'https://m.media-amazon.com/images/I/61AccNkmFFL._AC_SL500_.jpg',
+    description: 'Lenovo V15 G4 with AMD Athlon Silver 7120U, 8GB LPDDR5, 512GB SSD PCIe, Windows 11 Lifetime, 15.6" FHD Screen, AMD Radeon 610M, Silver. An affordable reliable business laptop with 1-year warranty.'
+  },
+
+  // SMARTPHONES
+  {
+    id: 'eg-65',
+    name: 'Samsung Galaxy M17 5G (Sapphire Black, 6GB/128GB)',
+    category: 'Electronic Goods',
+    price: 15999,
+    image: 'https://m.media-amazon.com/images/I/71t5CaisTqL._AC_SL500_.jpg',
+    description: 'Samsung Galaxy M17 5G with 50MP OIS triple camera, Gorilla Glass Victus, IP54, Dimensity 6300 processor, 6 Gen OS upgrades, Gemini Live AI, and lag-free gaming — without charger.'
   },
   {
-    id: 'eg-13',
-    name: 'ChatPro Elite Wireless',
+    id: 'eg-66',
+    name: 'Samsung Galaxy M56 5G (Light Green, 8GB/256GB)',
     category: 'Electronic Goods',
-    price: 18900,
-    image: '/images/Headset (3).jpg',
-    description: 'Master your meetings. Superior voice pickup and high-comfort ear cups for all-day office use.'
+    price: 24999,
+    image: 'https://m.media-amazon.com/images/I/71hN1gfzDcL._AC_SL500_.jpg',
+    description: "Samsung Galaxy M56 5G — segment's slimmest with Gorilla Glass Victus+, 10-bit HDR video, 50MP camera, vapour cooling chamber, AI features, and lag-free gaming — without charger."
   },
   {
-    id: 'eg-14',
-    name: 'Elite Audio Cans',
+    id: 'eg-67',
+    name: 'Samsung Galaxy M07 (Black, 4GB/64GB)',
     category: 'Electronic Goods',
-    price: 38900,
-    image: '/images/Headset (4).jpg',
-    description: 'Audiophile performance. Open-back design for an expansive soundstage and precise frequency response.'
+    price: 8399,
+    image: 'https://m.media-amazon.com/images/I/610lbucItmL._AC_SL500_.jpg',
+    description: 'Samsung Galaxy M07 with MediaTek Helio G99, 50MP camera, 7.6mm slim design, 5000mAh battery, 25W fast charging, IP54, and 6 Gen OS upgrades — without charger.'
   },
   {
-    id: 'eg-15',
-    name: 'Titan Core Gamer',
+    id: 'eg-68',
+    name: 'IKALL Z10 Smartphone (Orange, 4GB/64GB)',
     category: 'Electronic Goods',
-    price: 89900,
-    image: '/images/Laptop (4).jpg',
-    description: 'Unleash the performance. Advanced cooling and high-refresh display for competitive gaming.'
+    price: 6799,
+    image: 'https://m.media-amazon.com/images/I/51UOnCphehL._AC_SL500_.jpg',
+    description: 'IKALL Z10 with 6.53" HD display, octa-core processor, 20MP rear + 8MP front camera, 5000mAh battery, and Android 14 — an affordable entry-level smartphone in Orange.'
   },
   {
-    id: 'eg-16',
-    name: 'SmartLink Pro Phone',
+    id: 'eg-69',
+    name: 'Samsung Galaxy M06 5G (Sage Green, 6GB/128GB)',
     category: 'Electronic Goods',
-    price: 59900,
-    image: '/images/smartphone.png',
-    description: 'Sleek design, powerful features. An optimized software experience with a brilliant always-on display.'
+    price: 11999,
+    image: 'https://m.media-amazon.com/images/I/71evPv-TvmL._AC_SL500_.jpg',
+    description: 'Samsung Galaxy M06 5G with MediaTek Dimensity 6300, 12 5G bands, 50MP camera, 25W fast charging, 4 Gen OS upgrades, and AnTuTu score of 623K+ — without charger.'
   },
   {
-    id: 'eg-17',
-    name: 'Aura SmartWatch 9',
+    id: 'eg-70',
+    name: 'Samsung Galaxy M17 5G (Moonlight Silver, 4GB/128GB)',
     category: 'Electronic Goods',
-    price: 24900,
-    image: '/images/smartwatch.png',
-    description: 'Your health on your wrist. Advanced sensors for heart rate, blood oxygen, and sleep tracking.'
+    price: 14499,
+    image: 'https://m.media-amazon.com/images/I/71bJ3TVfwgL._AC_SL500_.jpg',
+    description: 'Samsung Galaxy M17 5G with 50MP OIS triple camera, Gorilla Glass Victus, IP54, 6 Gen OS upgrades, AI features, Gemini Live, and lag-free gaming — Moonlight Silver, without charger.'
   },
   {
-    id: 'eg-18',
-    name: 'SwiftBook 14',
+    id: 'eg-71',
+    name: 'iQOO Z10x 5G (Ultramarine, 8GB/128GB)',
     category: 'Electronic Goods',
-    price: 74900,
-    image: '/images/laptop.png',
-    description: 'No-compromise productivity. A solid aluminum body with a fast processor and all-day battery.'
+    price: 18998,
+    image: 'https://m.media-amazon.com/images/I/61oa+zoqwmL._AC_SL500_.jpg',
+    description: 'iQOO Z10x 5G with 6500mAh large battery, Dimensity 7300 processor, military-grade durability, and 5G connectivity — built for power users who need endurance in Ultramarine.'
   },
   {
-    id: 'eg-19',
-    name: 'Nexus Slate Tablet',
+    id: 'eg-72',
+    name: 'realme P4X 5G (Elegant Pink, 6GB/128GB)',
     category: 'Electronic Goods',
-    price: 28900,
-    image: '/images/tablet.png',
-    description: 'The perfect companion for students. Lightweight, durable, and compatible with stylus support.'
+    price: 15690,
+    image: 'https://m.media-amazon.com/images/I/71e1UTxoEOL._AC_SL500_.jpg',
+    description: 'realme P4X with 6.72" 144Hz display, 7000mAh titan battery, 45W fast charge, Dimensity 7400 Ultra 5G chipset, IP64 waterproof, and dual SIM — Elegant Pink.'
   },
   {
-    id: 'eg-20',
-    name: 'PureWave ANC Headphones',
+    id: 'eg-73',
+    name: 'realme NARZO 90x 5G (Nitro Blue, 6GB/128GB)',
     category: 'Electronic Goods',
-    price: 19900,
-    image: '/images/headphones.png',
-    description: 'Quiet your world. Industry-leading noise cancellation with rich, balanced sound profile.'
+    price: 15499,
+    image: 'https://m.media-amazon.com/images/I/81iDmqegt4L._AC_SL500_.jpg',
+    description: 'realme NARZO 90x 5G with 7000mAh battery, 60W fastest charging, 144Hz bright display, Sony 50MP AI rear camera, AI Assist, and 400% ultra boom speaker — Nitro Blue.'
   },
   {
-    id: 'eg-21',
-    name: 'Luxe Audio Over-Ears',
+    id: 'eg-74',
+    name: 'OPPO K14x 5G (Prism Violet, 4GB/128GB)',
     category: 'Electronic Goods',
-    price: 38900,
-    image: '/images/headphones.jpg',
-    description: 'Merging style and sound. Premium materials and custom drivers for a luxury personal audio experience.'
+    price: 13735,
+    image: 'https://m.media-amazon.com/images/I/41PqArxdhOL._AC_SL500_.jpg',
+    description: 'OPPO K14x 5G with a slim design, 5G connectivity, capable camera system, and long-lasting battery — a reliable mid-range 5G smartphone in Prism Violet.'
   },
   {
-    id: 'eg-22',
-    name: 'Compact Travel Projector',
+    id: 'eg-75',
+    name: 'iQOO Z11x 5G (Prismatic Green, 6GB/128GB)',
     category: 'Electronic Goods',
-    price: 14900,
-    image: '/images/tv.png',
-    description: 'Big screen in your bag. A portable 1080p projector with built-in speakers for cinema nights anywhere.'
+    price: 18998,
+    image: 'https://m.media-amazon.com/images/I/61HBOs7MdQL._AC_SL500_.jpg',
+    description: 'iQOO Z11x 5G with Dimensity 7400-Turbo processor, 7200mAh battery, powered by OriginOS 6, and 5G connectivity — designed for demanding users in Prismatic Green.'
   },
   {
-    id: 'eg-23',
-    name: 'Business Pro Smartphone',
+    id: 'eg-76',
+    name: 'Xiaomi 17 Ultra (White, 16GB/512GB)',
     category: 'Electronic Goods',
-    price: 9900,
-    image: '/images/Phone.jpg',
-    description: 'Reliable and secure. A durable smartphone with enhanced security features for professional use.'
+    price: 139999,
+    image: 'https://m.media-amazon.com/images/I/71KfhNgK6qL._AC_SL500_.jpg',
+    description: "Xiaomi 17 Ultra with world's first Leica 1-inch LOFIC sensor, Snapdragon 8 Elite Gen 5, 2K AMOLED display, 90W HyperCharge, and HyperOS 3 with HyperAI flagship experience — White."
   },
   {
-    id: 'eg-24',
-    name: 'Designer Series Laptop',
+    id: 'eg-77',
+    name: 'Xiaomi 17 (Ice Blue, 12GB/512GB)',
     category: 'Electronic Goods',
-    price: 54900,
-    image: '/images/Laptop (2).jpg',
-    description: 'Elegant Form, Powerful Function. A stunning laptop designed for the modern creative professional.'
+    price: 89999,
+    image: 'https://m.media-amazon.com/images/I/71DsWDIYobL._AC_SL500_.jpg',
+    description: 'Xiaomi 17 with 50MP Leica triple camera, Snapdragon 8 Elite Gen 5, 6.3" CrystalRes 1-120Hz AMOLED, 6330mAh battery, 100W HyperCharge, and 3500nits display — Ice Blue.'
   },
   {
-    id: 'eg-25',
-    name: 'Wireless Master Earbuds',
+    id: 'eg-78',
+    name: 'Redmi A4 5G (Starry Black, 4GB/64GB)',
     category: 'Electronic Goods',
-    price: 64900,
-    image: '/images/Headset.jpg',
-    description: 'Seamless connectivity. Fast pairing and crystal clear audio for a life on the go.'
+    price: 10999,
+    image: 'https://m.media-amazon.com/images/I/718HzJbvY1L._AC_SL500_.jpg',
+    description: 'Redmi A4 5G with segment-largest 6.88" 120Hz display, 50MP dual camera, 18W fast charging, charger in box, and 5G connectivity — the most affordable 5G option in Starry Black.'
   },
+  {
+    id: 'eg-79',
+    name: 'Lava Bold N1 Pro (Stealth Black, 4GB/128GB)',
+    category: 'Electronic Goods',
+    price: 8499,
+    image: 'https://m.media-amazon.com/images/I/71LIzk0Uj8L._AC_SL500_.jpg',
+    description: 'Lava Bold N1 Pro with 6.67" HD+ IP54 display, 120Hz refresh rate, 50MP AI triple rear camera, 8MP front camera, 5000mAh battery, and charger in box — Stealth Black.'
+  },
+  {
+    id: 'eg-80',
+    name: 'Redmi Note 15 5G (Glacier Blue, 8GB/256GB)',
+    category: 'Electronic Goods',
+    price: 24998,
+    image: 'https://m.media-amazon.com/images/I/81SxS-bDvVL._AC_SL500_.jpg',
+    description: "Redmi Note 15 5G with 108MP OIS camera, Snapdragon 6 Gen 3, segment's slimmest curved AMOLED screen, 5520mAh Si/C battery, and 45W fast charging — Glacier Blue."
+  },
+  {
+    id: 'eg-81',
+    name: 'OnePlus Nord CE5 (Black Infinity, 8GB/128GB)',
+    category: 'Electronic Goods',
+    price: 24996,
+    image: 'https://m.media-amazon.com/images/I/61IOa9IrlaL._AC_SL500_.jpg',
+    description: 'OnePlus Nord CE5 with MediaTek Dimensity processor, massive 7100mAh battery, OnePlus AI features, and 5G connectivity — a powerful mid-ranger in Black Infinity.'
+  },
+  {
+    id: 'eg-82',
+    name: 'realme C71 4G (Obsidian Black, 6GB/128GB)',
+    category: 'Electronic Goods',
+    price: 10999,
+    image: 'https://m.media-amazon.com/images/I/61JZr5lcZaL._AC_SL500_.jpg',
+    description: 'realme C71 with 6.75" 90Hz eye comfort display, 6300mAh battery, 37MP cameras, octa-core chipset, IP54 protection, and a large screen — Obsidian Black.'
+  },
+  {
+    id: 'eg-83',
+    name: 'Motorola g57 Power 5G (Corsair, 8GB/128GB)',
+    category: 'Electronic Goods',
+    price: 14536,
+    image: 'https://m.media-amazon.com/images/I/41kKGEM47iL._AC_SL500_.jpg',
+    description: 'Motorola g57 Power 5G with 7000mAh battery, Snapdragon 6s Gen 4 processor, 6.72" FHD+ display, 50MP + 8MP dual rear camera, and 8MP front camera — Pantone Corsair.'
+  },
+  {
+    id: 'eg-84',
+    name: 'iQOO Z11x 5G (Prismatic Green, 8GB/128GB)',
+    category: 'Electronic Goods',
+    price: 20998,
+    image: 'https://m.media-amazon.com/images/I/61HBOs7MdQL._AC_SL500_.jpg',
+    description: 'iQOO Z11x 5G (8GB variant) with Dimensity 7400-Turbo processor, 7200mAh battery, OriginOS 6, and 5G connectivity — extra RAM for seamless multitasking in Prismatic Green.'
+  },
+  {
+    id: 'eg-85',
+    name: 'Redmi Note 15 Pro+ 5G (Coffee Mocha, 12GB/256GB)',
+    category: 'Electronic Goods',
+    price: 39999,
+    image: 'https://m.media-amazon.com/images/I/81pHku2Z4KL._AC_SL500_.jpg',
+    description: 'Redmi Note 15 Pro+ with 200MP OIS camera, Snapdragon 7s Gen 4, CrystalRes AMOLED, IP69/69K rating, 6500mAh Si/C battery, and 100W HyperCharge — Coffee Mocha.'
+  },
+  {
+    id: 'eg-86',
+    name: 'Motorola G96 (Greener Pastures, 8GB/128GB)',
+    category: 'Electronic Goods',
+    price: 17879,
+    image: 'https://m.media-amazon.com/images/I/51h0rsXmIXL._AC_SL500_.jpg',
+    description: 'Motorola G96 with 144Hz 3D curved pOLED display, 8GB RAM, 128GB storage, and premium design — delivering a smooth, immersive visual experience in PANTONE Greener Pastures.'
+  },
+
+  // HEADPHONES
   {
     id: 'eg-26',
-    name: 'Pro Streamer Mic Interface',
+    name: 'boAt Rockerz 480 Wireless Over Ear Headphones with Mic',
     category: 'Electronic Goods',
-    price: 18900,
-    image: '/images/Headeset.jpg',
-    description: 'Take control of your audio. Professional-grade preamps and intuitive controls for streamers.'
+    price: 1499,
+    image: 'https://m.media-amazon.com/images/I/711l4y8aNlL._AC_SL500_.jpg',
+    description: 'boAt Rockerz 480 with RGB LEDs, 6 light modes, 40mm drivers, Beast Mode, 60H battery, ENx tech for clear calls, Bluetooth 5.3, and foldable over-ear design. Stream ad-free via App support.'
   },
   {
     id: 'eg-27',
-    name: 'Smart Fitness Band',
+    name: 'Sony WH-CH520 Wireless Bluetooth On-Ear Headphones',
     category: 'Electronic Goods',
-    price: 24900,
-    image: '/images/smartwatch.png',
-    description: 'Discreety and powerful. Track your activity and calories throughout the day.'
+    price: 3979,
+    image: 'https://m.media-amazon.com/images/I/41JACWT-wWL._AC_SL500_.jpg',
+    description: 'Sony WH-CH520 with up to 50Hrs battery, Quick Charge, DSEE Upscale audio enhancement, multipoint connectivity, voice assistant support, and foldable on-ear design — in Blue.'
   },
   {
     id: 'eg-28',
-    name: 'Mechanical Numeric Pad',
+    name: 'JBL Tune 770NC Wireless Over Ear ANC Headphones',
     category: 'Electronic Goods',
-    price: 7900,
-    image: '/images/laptop.png',
-    description: 'Tactile data entry. High-quality mechanical switches for the numbers-driven professional.'
+    price: 4999,
+    image: 'https://m.media-amazon.com/images/I/61JU2HicMQL._AC_SL500_.jpg',
+    description: 'JBL Tune 770NC with ANC, up to 70Hrs battery, Speed Charge, customised EQ via JBL app, Google Fast Pair, dual pairing, Bluetooth 5.3, and foldable design — in Black.'
   },
   {
     id: 'eg-29',
-    name: 'Lite Vision Phone',
+    name: 'Bose QuietComfort Ultra Bluetooth Headphones (2nd Gen)',
     category: 'Electronic Goods',
-    price: 12900,
-    image: '/images/Phone (2).jpg',
-    description: 'Essential features, premium feel. A great entry-point into high-end mobile technology.'
+    price: 49900,
+    image: 'https://m.media-amazon.com/images/I/619DQSC3N1L._AC_SL500_.jpg',
+    description: 'Bose QuietComfort Ultra (2nd Gen) with Spatial Audio, world-class ANC, up to 30Hrs playtime, Aware Mode, CustomTune technology, and premium lightweight comfort — Midnight Violet Limited Edition.'
   },
   {
     id: 'eg-30',
-    name: 'QuietFocus Headphones',
+    name: 'Sony WH-CH720N Active Noise Cancellation Wireless Headphones',
     category: 'Electronic Goods',
-    price: 24900,
-    image: '/images/Headset (2).jpg',
-    description: 'Concentrate on your work. Effective noise isolation and a comfortable over-ear design.'
+    price: 8239,
+    image: 'https://m.media-amazon.com/images/I/51rpbVmi9XL._AC_SL500_.jpg',
+    description: 'Sony WH-CH720N with Adaptive Sound Control, Quick Charge (10 min = 1.5 hrs), up to 35Hrs battery, Bluetooth multipoint, customised EQ, and Alexa/Google Assistant support — in Black.'
   },
   {
     id: 'eg-31',
-    name: 'Mini Smart Projector',
+    name: 'boAt Rockerz 650 Pro Wireless Over Ear Headphones',
     category: 'Electronic Goods',
-    price: 64900,
-    image: '/images/tv.png',
-    description: 'The smart way to watch. Integrated streaming apps and easy setup for any wall surface.'
+    price: 2499,
+    image: 'https://m.media-amazon.com/images/I/61faDMBMdmL._AC_SL500_.jpg',
+    description: 'boAt Rockerz 650 Pro 2025 with touch/swipe controls, Dolby Audio, 80Hrs battery, 2-mic ENx noise cancellation, Fast Charge, App support, dual pairing, and Bluetooth over-ear design — Starry Night.'
   },
   {
     id: 'eg-32',
-    name: 'High-Speed Wi-Fi Router',
+    name: 'boAt Rockerz 551ANC Hybrid ANC Over Ear Headphones',
     category: 'Electronic Goods',
-    price: 48000,
-    image: '/images/laptop.png',
-    description: 'Eliminate dead zones. Robust coverage and fast speeds for a connected modern home.'
+    price: 1899,
+    image: 'https://m.media-amazon.com/images/I/61WFLydWqpL._AC_SL500_.jpg',
+    description: 'boAt Rockerz 551ANC with hybrid ANC (~35dB), 100Hrs battery, Fast Charge, Ambient Sound Mode, dual EQ modes, ENx tech, and Bluetooth 5.3 — designed for immersive all-day listening in Sage Green.'
   },
   {
-    id: 'eg-33',
-    name: 'Digital Photo Frame',
+    id: 'eg-51',
+    name: 'Noise Airwave Max 4 Wireless Over Ear Headphones',
     category: 'Electronic Goods',
-    price: 19900,
-    image: '/images/tablet.png',
-    description: 'Display your memories. A high-res screen that cycles through your favorite moments with family.'
+    price: 1699,
+    image: 'https://m.media-amazon.com/images/I/614Hd3JaGOL._AC_SL500_.jpg',
+    description: 'Noise Airwave Max 4 with 70H playtime, ENC, 40mm drivers, low latency (up to 40ms), dual pairing, and Bluetooth v5.4. A long-lasting daily headphone in Calm Beige.'
   },
   {
-    id: 'eg-34',
-    name: 'Studio Monitor Cans',
+    id: 'eg-52',
+    name: 'Noise Airwave Max 5 Wireless Over-Ear Headphones with ANC',
     category: 'Electronic Goods',
-    price: 3500,
-    image: '/images/headphones.png',
-    description: 'Flat response for audio work. Affordable and reliable monitoring for home studios.'
+    price: 4999,
+    image: 'https://m.media-amazon.com/images/I/51YKwVXBhIL._AC_SL500_.jpg',
+    description: 'Noise Airwave Max 5 with Adaptive Hybrid ANC (up to 50dB), HFA Tech, 80H playtime, dual pairing, and Bluetooth v5.4. Premium noise isolation with an extended battery for all-day use — Calm Beige.'
   },
   {
-    id: 'eg-35',
-    name: 'Flash Photography Unit',
+    id: 'eg-53',
+    name: 'Snaphead Vibe Bluetooth Wireless Over Ear Headphones',
     category: 'Electronic Goods',
-    price: 32900,
-    image: '/images/smartwatch.png',
-    description: 'Master the light. Professional sync and consistent performance for studio shooting.'
+    price: 999,
+    image: 'https://m.media-amazon.com/images/I/51cKpI1SqOL._AC_SL500_.jpg',
+    description: 'Snaphead Vibe with Type-C charging, up to 13Hrs non-stop music, 40mm speaker driver, super bass, and wireless Bluetooth connectivity — Sapphire Blue. Budget-friendly everyday headphone.'
   },
   {
-    id: 'eg-36',
-    name: 'Wireless Instrument Link',
-    category: 'Electronic Goods',
-    price: 14900,
-    image: '/images/Headset (4).jpg',
-    description: 'Unplug and play. Zero-latency wireless connection for guitars and other instruments.'
-  },
-  {
-    id: 'eg-37',
-    name: 'Smart Weather Console',
-    category: 'Electronic Goods',
-    price: 28900,
-    image: '/images/Phone.jpg',
-    description: 'Real-time local data. Monitor temperature and humidity with surgical precision.'
-  },
-  {
-    id: 'eg-38',
-    name: 'Custom Mechanical Keyboard',
-    category: 'Electronic Goods',
-    price: 34900,
-    image: '/images/Laptop (4).jpg',
-    description: 'Premium typing experience. Gasket-mounted design for the ultimate sound and feel.'
-  },
-  {
-    id: 'eg-39',
-    name: 'Reference Mix Ears',
+    id: 'eg-54',
+    name: 'Bose QuietComfort Ultra Bluetooth Headphones (2nd Gen) Black',
     category: 'Electronic Goods',
     price: 49900,
-    image: '/images/headphones.png',
-    description: 'Accuracy above all. These headphones reveal every detail in your mix for precise mastering.'
+    image: 'https://m.media-amazon.com/images/I/51revx-zToL._AC_SL500_.jpg',
+    description: 'Bose QuietComfort Ultra (2nd Gen) with Spatial Audio, industry-leading ANC, up to 30Hrs playtime, Aware Mode, and CustomTune personalisation technology — in classic Black.'
   },
   {
-    id: 'eg-40',
-    name: 'Turbo Graphic Dock',
+    id: 'eg-55',
+    name: 'boAt Rockerz 411 Wireless Over Ear Headphones (2025)',
     category: 'Electronic Goods',
-    price: 39900,
-    image: '/images/Laptop (2).jpg',
-    description: 'Desktop power for your laptop. An external GPU enclosure for rendering and editing.'
+    price: 1399,
+    image: 'https://m.media-amazon.com/images/I/61RbNdlNWIL._AC_SL500_.jpg',
+    description: 'boAt Rockerz 411 2025 with 40ms low latency, 40Hrs battery, 40mm drivers, ENx tech, App support, Bluetooth 5.3, and an over-ear foldable build — Bold Blue. Great value wireless headphone.'
   },
   {
-    id: 'eg-41',
-    name: 'Scale Pro Smart',
+    id: 'eg-56',
+    name: 'pTron Studio Wireless Over-Ear Headphones with HD Mic',
     category: 'Electronic Goods',
-    price: 11900,
-    image: '/images/smartphone.png',
-    description: 'Advanced body metrics. Heart rate and body fat percentage tracking with app sync.'
+    price: 599,
+    image: 'https://m.media-amazon.com/images/I/51tM5eJfqWL._AC_SL500_.jpg',
+    description: 'pTron Studio with 60Hrs playtime, immersive sound, 40mm drivers, BT5.4, dual-device pairing, 3.5mm aux port, TF card slot, and Type-C fast charging — Jet Black. Ultra-affordable wireless audio.'
   },
   {
-    id: 'eg-42',
-    name: 'Field Audio Recorder',
+    id: 'eg-57',
+    name: 'Noise Two Wireless On Ear Headphones',
     category: 'Electronic Goods',
-    price: 28900,
-    image: '/images/Headeset.jpg',
-    description: 'Capture nature in detail. High-res recording with built-in X/Y stereo microphones.'
+    price: 1699,
+    image: 'https://m.media-amazon.com/images/I/517lSvEVVsL._AC_SL500_.jpg',
+    description: 'Noise Two with 50H playtime, low latency (up to 45ms), 4 play modes, dual pairing, and Bluetooth v5.3. A versatile on-ear headphone for music, gaming, and calls — Serene Blue.'
   },
   {
-    id: 'eg-43',
-    name: 'Hydroponic Garden Unit',
+    id: 'eg-58',
+    name: 'Bose QuietComfort Wireless Noise Cancelling Headphones',
     category: 'Electronic Goods',
-    price: 19900,
-    image: '/images/tablet.png',
-    description: 'Automated indoor greens. Smart LED lighting for growing fresh herbs in your kitchen.'
+    price: 22290,
+    image: 'https://m.media-amazon.com/images/I/51f7KKP25PL._AC_SL500_.jpg',
+    description: 'Bose QuietComfort wireless headphones with up to 24Hrs battery, world-class noise cancellation, Aware Mode, TriPort acoustic architecture, and balanced sound — in Black. A benchmark ANC headphone.'
   },
   {
-    id: 'eg-44',
-    name: 'Smart Label Printer',
+    id: 'eg-59',
+    name: 'pTron Studio Evo Wireless Over Ear Headphones',
     category: 'Electronic Goods',
-    price: 16900,
-    image: '/images/laptop.png',
-    description: 'Organize your office. Thermal printing technology for high-res labels in seconds.'
+    price: 799,
+    image: 'https://m.media-amazon.com/images/I/51hLUxJVLBL._AC_SL500_.jpg',
+    description: 'pTron Studio Evo with 70Hrs playtime, HD mic, low-latency game/movie/music modes, punchy bass, BT5.3, dual device pairing, voice assistant, and Type-C fast charging — Blue.'
   },
   {
-    id: 'eg-45',
-    name: 'Premium USB Interface',
+    id: 'eg-60',
+    name: 'boAt Rockerz 512 ANC Hybrid Noise Cancelling Headphones',
     category: 'Electronic Goods',
-    price: 44900,
-    image: '/images/headphones.png',
-    description: 'The center of your studio. Pristine preamps for professional vocal and instrument recording.'
+    price: 2599,
+    image: 'https://m.media-amazon.com/images/I/61qdD0zSk8L._AC_SL500_.jpg',
+    description: 'boAt Rockerz 512 with hybrid ANC (~40dB), 80H battery, 40mm drivers, 40ms low latency, ENx tech, App support, Bluetooth 5.3, and ASAP Charge — Cosmic Black.'
+  },
+  {
+    id: 'eg-61',
+    name: 'boAt Rockerz 371 Wireless Over Ear Headphones',
+    category: 'Electronic Goods',
+    price: 999,
+    image: 'https://m.media-amazon.com/images/I/61BWskzWNIL._AC_SL500_.jpg',
+    description: 'boAt Rockerz 371 with 40mm drivers, 50Hrs battery, 60ms low latency, ENx tech, BT v5.4, foldable cups, voice assistant, and Bluetooth 5.4 — Sage Green. Compact and affordable daily headphone.'
+  },
+  {
+    id: 'eg-62',
+    name: 'soundcore by Anker H30i Wireless On-Ear Headphones',
+    category: 'Electronic Goods',
+    price: 1299,
+    image: 'https://m.media-amazon.com/images/I/51MKRHXe65L._AC_SL500_.jpg',
+    description: 'soundcore H30i with foldable design, Pure Bass, 70H playtime, Bluetooth 5.3, lightweight comfortable build, app connectivity, and multipoint connection — Black. Anker quality at a budget price.'
+  },
+  {
+    id: 'eg-63',
+    name: 'pTron Studio Pro Wireless Over Ear Headphones',
+    category: 'Electronic Goods',
+    price: 699,
+    image: 'https://m.media-amazon.com/images/I/61Qk3p2fXQL._AC_SL500_.jpg',
+    description: 'pTron Studio Pro with 65Hrs playtime, TruTalk AI-ENC calls, HD mic, low-latency game & music modes, 40mm drivers, BT5.4, dual device pairing, and Type-C fast charging — Jet Black.'
+  },
+  {
+    id: 'eg-64',
+    name: 'Noise Airwave Max XR Wireless Over-Ear Headphones',
+    category: 'Electronic Goods',
+    price: 3499,
+    image: 'https://m.media-amazon.com/images/I/51lPcFkwYmL._AC_SL500_.jpg',
+    description: 'Noise Airwave Max XR with 120H playtime, ANC, HFA Tech, Spatial Audio, dual pairing, and Bluetooth v6.0. Next-gen over-ear headphone with ultra-long battery and premium sound — Pearl Beige.'
   },
 
-  // --- Home Electronics (20 items) ---
-  { id: 'he-1', name: '8K OLED Cinema Display', category: 'Home Electronics', price: 349900, image: '/images/tv.png', description: 'Step into the picture. Our flagship 8K OLED TV features self-lit pixels and an AI processor for an uncompromising home theater experience.' },
-  { id: 'he-2', name: 'Smart Inverter Refrigerator', category: 'Home Electronics', price: 189900, image: '/images/refrigerator.png', description: 'The centerpiece of the contemporary kitchen. French door design with precise temperature control and matte black finish.' },
-  { id: 'he-3', name: 'Series 9 AI Washing Machine', category: 'Home Electronics', price: 64900, image: '/images/washing-machine.png', description: 'Experience the future of garment care. AI-driven cycles analyze fabric type for the perfect wash every time.' },
-  { id: 'he-4', name: 'Arctic Flow Inverter AC', category: 'Home Electronics', price: 42900, image: '/images/ac.png', description: 'Superior climate control. Maintain the perfect temperature while consuming 40% less energy with advanced purification filters.' },
-  { id: 'he-5', name: 'Lidar Robot Vacuum Max', category: 'Home Electronics', price: 44900, image: '/images/robot-vacuum.png', description: 'Spotless floors, automatically. Features Lidar mapping and AI obstacle avoidance for a truly hands-off cleaning experience.' },
-  { id: 'he-6', name: 'Elite Cordless Mop', category: 'Home Electronics', price: 32900, image: '/images/Electric Mop.jpg', description: 'High-speed spinning pads for effortless floor shine. The Elite cordless mop makes maintenance a breeze.' },
-  { id: 'he-7', name: 'WaveSense Robot Sweeper', category: 'Home Electronics', price: 21900, image: '/images/Robot Vaccum.jpg', description: 'Efficient and quiet. A smart sweeper that navigates under furniture to keep your hard floors dust-free daily.' },
-  { id: 'he-8', name: 'Pro-Steam Inverter Washer', category: 'Home Electronics', price: 89900, image: '/images/washing-machine.png', description: 'Deep cleaning with the power of steam. Removes allergens and tough stains while remaining gentle on your most delicate fabrics.' },
-  { id: 'he-9', name: 'Modern Living Tablet Display', category: 'Home Electronics', price: 34900, image: '/images/tablet.png', description: 'Control your smart home from one place. A wall-mountable 12-inch display for lighting, climate, and security.' },
-  { id: 'he-10', name: 'Cinema Surround System', category: 'Home Electronics', price: 64900, image: '/images/tv.png', description: 'Immersive 7.1 audio experience. Calibrates to your room automatically to deliver crystal clear dialogue and deep bass.' },
-  { id: 'he-11', name: 'Matte Series Refrigerator', category: 'Home Electronics', price: 84900, image: '/images/refrigerator.png', description: 'Sleek and spacious. A slim-profile fridge that offers massive storage capacity for modern apartments.' },
-  { id: 'he-12', name: 'Quiet Zone AC', category: 'Home Electronics', price: 18900, image: '/images/ac.png', description: 'Sleep in peace. An ultra-quiet air conditioner designed for bedrooms with a dedicated night mode.' },
-  { id: 'he-13', name: 'Corner Clean Robot', category: 'Home Electronics', price: 7900, image: '/images/robot-vacuum.png', description: 'Gets where others cant. Specialized sensors ensure corners and edges are thoroughly cleaned every time.' },
-  { id: 'he-14', name: 'Compact Studio Washer', category: 'Home Electronics', price: 115900, image: '/images/washing-machine.png', description: 'Professional performance for tight spaces. All the power of a full-size machine in a space-saving footprint.' },
-  { id: 'he-15', name: 'Smart Kitchen Hub', category: 'Home Electronics', price: 145900, image: '/images/refrigerator.png', description: 'The brain of your kitchen. A connected refrigerator with a built-in screen for recipes, calendars, and family notes.' },
-  { id: 'he-16', name: 'Pure Air Pro', category: 'Home Electronics', price: 18900, image: '/images/ac.png', description: 'Breathe easy. Combining air conditioning with medical-grade HEPA filtration for the ultimate indoor air quality.' },
-  { id: 'he-17', name: 'Gourmet Induction Hob', category: 'Home Electronics', price: 28900, image: '/images/tablet.png', description: 'Precision cooking at your fingertips. Instant heat response and precise temperature control for professional results.' },
-  { id: 'he-18', name: 'ClearView Security Tablet', category: 'Home Electronics', price: 34900, image: '/images/tablet.png', description: 'Dedicated security monitor for your home cameras. High-res display with multi-camera split view.' },
-  { id: 'he-19', name: 'Quiet Cycle Dishwasher', category: 'Home Electronics', price: 49900, image: '/images/washing-machine.png', description: 'Silent but powerful. Intensive steam cleaning that operates at a near-inaudible volume.' },
-  { id: 'he-20', name: 'Elite Home Cinema VR', category: 'Home Electronics', price: 125900, image: '/images/smartwatch.png', description: 'Personal theater on the go. High-res wearable display for a truly immersive movie-watching experience.' },
+  // --- Home Electronics ---
+
+  // KITCHEN & SMALL APPLIANCES
+  {
+    id: 'he-16',
+    name: 'NutriPro Bullet Juicer Grinder 500W (3 Jars)',
+    category: 'Home Electronics',
+    price: 1599,
+    image: 'https://m.media-amazon.com/images/I/71rH4vEE4nL._AC_SL500_.jpg',
+    description: 'NutriPro Bullet Juicer Grinder with 500W motor and 3 multipurpose jars for juicing, grinding, and blending. Compact design with stainless steel blades for efficient processing of fruits, vegetables, and spices.'
+  },
+  {
+    id: 'he-17',
+    name: 'Pigeon 2 Slice Pop Up Toaster 700W',
+    category: 'Home Electronics',
+    price: 1217,
+    image: 'https://m.media-amazon.com/images/I/51x15vgzI2L._AC_SL500_.jpg',
+    description: 'Pigeon 2 Slice Pop Up Toaster with 700W power, 6 browning levels, and automatic pop-up function. Features cancel, defrost, and reheat modes with a removable crumb tray for easy cleaning.'
+  },
+  {
+    id: 'he-18',
+    name: 'Wonderchef Swift Brew Coffee Machine 600W',
+    category: 'Home Electronics',
+    price: 1353,
+    image: 'https://m.media-amazon.com/images/I/71bBUdEXlbL._AC_SL500_.jpg',
+    description: 'Wonderchef Swift Brew Coffee Machine with 600W heating element brews fresh coffee in minutes. Compact drip coffee maker with reusable filter, keep-warm plate, and transparent water tank for easy monitoring.'
+  },
+  {
+    id: 'he-19',
+    name: 'Prestige Sandwich Toaster PGMFB 800W',
+    category: 'Home Electronics',
+    price: 1299,
+    image: 'https://m.media-amazon.com/images/I/51ZtiPd0PVL._AC_SL500_.jpg',
+    description: 'Prestige Sandwich Toaster with 800W power and non-stick coated plates for perfectly grilled sandwiches. Features indicator lights for power and ready status, cool-touch handle, and floating hinge for different bread thicknesses.'
+  },
+  {
+    id: 'he-20',
+    name: 'Cookwell Bullet Mixer Grinder 500W (3 Jars)',
+    category: 'Home Electronics',
+    price: 2199,
+    image: 'https://m.media-amazon.com/images/I/81yobRRV8nL._AC_SL500_.jpg',
+    description: 'Cookwell Bullet Mixer Grinder with 500W motor and 3 stainless steel jars for mixing, grinding, and blending. Equipped with sharp stainless steel blades, safety lock lid, and overload protection for long-lasting performance.'
+  },
+  {
+    id: 'he-21',
+    name: 'Pigeon Healthifry Digital Air Fryer 4.2L 1200W',
+    category: 'Home Electronics',
+    price: 2899,
+    image: 'https://m.media-amazon.com/images/I/71NZiryyhbL._AC_SL500_.jpg',
+    description: 'Pigeon Healthifry Digital Air Fryer with 360° high-speed air circulation technology, 4.2L non-stick basket, 1200W, and digital touch controls — fry, bake, grill and roast with up to 80% less oil.'
+  },
+  {
+    id: 'he-22',
+    name: 'Cadlec Cruise Pro 12L Multi-Function OTG 1000W',
+    category: 'Home Electronics',
+    price: 1899,
+    image: 'https://m.media-amazon.com/images/I/61kGQfVJdcL._AC_SL500_.jpg',
+    description: 'Cadlec Cruise Pro 12L OTG with 1000W heating, bake/grill/toast functions, adjustable temperature and timer controls, and 2-year warranty. Compact oven toaster griller for everyday baking needs.'
+  },
+  {
+    id: 'he-23',
+    name: 'Rico Cold Press Slow Juicer with Ice Cream Maker',
+    category: 'Home Electronics',
+    price: 8499,
+    image: 'https://m.media-amazon.com/images/I/61k34IN0NSL._AC_SL500_.jpg',
+    description: 'Rico Cold Press Slow Juicer extracts 10% more juice from fruits, vegetables, and nut milk with low noise, anti-drip nozzle, and easy-clean design. Also doubles as an ice cream maker.'
+  },
+  {
+    id: 'he-24',
+    name: 'Milton Rapid Electric Kettle 1.8L 1500W Stainless Steel',
+    category: 'Home Electronics',
+    price: 636,
+    image: 'https://m.media-amazon.com/images/I/51lYFOP2mUL._AC_SL500_.jpg',
+    description: 'Milton Rapid Electric Kettle with 1500W heating, 1.8L stainless steel body, auto shut-off, wide mouth, cool-touch handle, and single-touch lid lock. Fast boiling for home and office use.'
+  },
 ];

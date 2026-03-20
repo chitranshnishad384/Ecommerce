@@ -116,7 +116,7 @@
     grid-template-columns: 1fr;
     gap: 4rem;
   }
-  
+
   .imageGallery {
     position: static;
   }
@@ -126,11 +126,11 @@
   .title {
     font-size: 2rem;
   }
-  
+
   .actions {
     flex-direction: column;
   }
-  
+
   .quantity {
     justify-content: space-between;
   }

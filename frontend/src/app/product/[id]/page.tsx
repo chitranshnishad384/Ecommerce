@@ -21,11 +21,11 @@ export default async function ProductPage({ params }: Props) {
       <div className={styles.grid}>
         <div className={styles.imageGallery}>
           <div className={styles.mainImage}>
-            <Image 
-              src={product.image} 
-              alt={product.name} 
-              width={800} 
-              height={1000} 
+            <Image
+              src={product.image}
+              alt={product.name}
+              width={800}
+              height={1000}
               className={styles.image}
               priority
             />
