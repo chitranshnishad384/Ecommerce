@@ -1323,4 +1323,216 @@ export const products: Product[] = [
     image: 'https://m.media-amazon.com/images/I/51lYFOP2mUL._AC_SL500_.jpg',
     description: 'Milton Rapid Electric Kettle with 1500W heating, 1.8L stainless steel body, auto shut-off, wide mouth, cool-touch handle, and single-touch lid lock. Fast boiling for home and office use.'
   },
+
+  // AIR FRYERS
+  {
+    id: 'he-25',
+    name: 'SOLARA 12L Air Fryer Oven 1800W OTG with 12 Presets & 9 Accessories (Black)',
+    category: 'Home Electronics',
+    price: 8299,
+    image: 'https://m.media-amazon.com/images/I/81nj934mZvL._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/81nj934mZvL._AC_SL500_.jpg'],
+    description: 'SOLARA 12L 1800W air fryer OTG oven with 12 presets, 9 accessories, and functions for grilling, roasting, baking, and reheating. Includes a recipe e-book and 1-year warranty — XX-Large capacity.'
+  },
+  {
+    id: 'he-26',
+    name: 'PHILIPS Air Fryer NA120/00 4.2L 1500W with Rapid Air Technology (Black)',
+    category: 'Home Electronics',
+    price: 4849,
+    image: 'https://m.media-amazon.com/images/I/41Z5ldkAeYL._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/41Z5ldkAeYL._AC_SL500_.jpg'],
+    description: 'Philips 4.2L 1500W air fryer using Rapid Air Technology to cook with up to 90% less fat — a large-capacity, healthier way to fry, grill, roast, and bake your favourite foods.'
+  },
+  {
+    id: 'he-27',
+    name: 'Milton Rapid Digital Air Fryer 5L 1450W with Touch Control & 8 Presets',
+    category: 'Home Electronics',
+    price: 4449,
+    image: 'https://m.media-amazon.com/images/I/61FmPIl8ftL._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/61FmPIl8ftL._AC_SL500_.jpg'],
+    description: 'Milton 5L 1450W digital air fryer with 360° high-speed air circulation, 8 preset menus, touch control panel, digital display, auto shut-off, and up to 90% less oil usage.'
+  },
+
+  // TOASTERS & SANDWICH MAKERS
+  {
+    id: 'he-28',
+    name: 'Philips Daily Collection HD2583/90 600W 2-in-1 Toaster & Sandwich Maker (Black)',
+    category: 'Home Electronics',
+    price: 2394,
+    image: 'https://m.media-amazon.com/images/I/51EKHwiuVcL._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/51EKHwiuVcL._AC_SL500_.jpg'],
+    description: 'Philips 600W 2-in-1 toaster and sandwich maker — versatile kitchen appliance that toasts bread and makes grilled sandwiches with easy-clean non-stick plates.'
+  },
+  {
+    id: 'he-29',
+    name: 'Prestige PGMFD 800W Grill Sandwich Toaster with Non-Stick Plates (Black)',
+    category: 'Home Electronics',
+    price: 1299,
+    image: 'https://m.media-amazon.com/images/I/61pxT8qTAKL._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/61pxT8qTAKL._AC_SL500_.jpg'],
+    description: 'Prestige 800W grill sandwich toaster with non-stick grill plates, heat-resistant bakelite body, auto cut-off, power & ready indicators, and easy-clean design. ISI certified with 1Y warranty.'
+  },
+  {
+    id: 'he-30',
+    name: 'Bajaj ATX 4 750W 2-Slice Pop-up Toaster with 6-Level Browning & Dust Cover (White)',
+    category: 'Home Electronics',
+    price: 1495,
+    image: 'https://m.media-amazon.com/images/I/61fgJs4zIqL._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/61fgJs4zIqL._AC_SL500_.jpg'],
+    description: 'Bajaj 750W 2-slice pop-up toaster with 6-level browning controls, dust cover, slide-out crumb tray, and mid-cycle cancel feature — reliable everyday toasting with a 2-year warranty.'
+  },
+
+  // MIXERS, BLENDERS & GRINDERS
+  {
+    id: 'he-31',
+    name: 'Philips HR3705/10 300W Lightweight Hand Mixer with 5 Speed Settings (Black)',
+    category: 'Home Electronics',
+    price: 2346,
+    image: 'https://m.media-amazon.com/images/I/71rsVfDPlAL._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/71rsVfDPlAL._AC_SL500_.jpg'],
+    description: 'Philips 300W lightweight hand mixer with 5-speed control, stainless steel accessories, and 2-year warranty — easy and efficient for whipping cream, mixing batter, and kneading dough.'
+  },
+  {
+    id: 'he-32',
+    name: 'KENT Hand Blender 300W with 5-Speed Control, Beaters, Dough Hooks & Turbo Function',
+    category: 'Home Electronics',
+    price: 1549,
+    image: 'https://m.media-amazon.com/images/I/51UnFBfZmtL._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/51UnFBfZmtL._AC_SL500_.jpg'],
+    description: 'KENT 300W hand blender with 5 variable speeds, turbo function, multiple beaters and dough hooks — a versatile kitchen tool for blending, mixing, and kneading.'
+  },
+  {
+    id: 'he-33',
+    name: 'Wonderchef Nutri-blend 500W Mixer Grinder 22000 RPM with 3 Unbreakable Jars (Black)',
+    category: 'Home Electronics',
+    price: 2299,
+    image: 'https://m.media-amazon.com/images/I/61ahYEIq8aL._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/61ahYEIq8aL._AC_SL500_.jpg'],
+    description: 'Wonderchef Nutri-blend 500W mixer grinder with 22000 RPM motor, 3 unbreakable jars, recipe book by Chef Sanjeev Kapoor, and 2-year warranty — perfect for smoothies, masala, and chutneys.'
+  },
+  {
+    id: 'he-34',
+    name: 'AGARO Royal Stand Mixer 1000W with 5L SS Bowl, 8-Speed & 3 Attachments (Black)',
+    category: 'Home Electronics',
+    price: 6499,
+    image: 'https://m.media-amazon.com/images/I/61A-nKQFtDL._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/61A-nKQFtDL._AC_SL500_.jpg'],
+    description: 'AGARO Royal 1000W stand mixer with 5L stainless steel bowl, 8-speed settings, whisking cone, mixing beater, dough hook, and splash guard — a professional-grade baking essential.'
+  },
+  {
+    id: 'he-35',
+    name: 'Atomberg Zenova Mixer Grinder with BLDC Motor, Coarse Mode & 4 Jars including Chopper (Sand Grey)',
+    category: 'Home Electronics',
+    price: 6799,
+    image: 'https://m.media-amazon.com/images/I/71iDLp1racL._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/71iDLp1racL._AC_SL500_.jpg'],
+    description: 'Atomberg Zenova intelligent BLDC mixer grinder with unique coarse mode for silbatta-like texture, 4 jars including a chopper, hands-free operation, and advanced safety features — Sand Grey.'
+  },
+  {
+    id: 'he-36',
+    name: 'iBELL WHISK280 280W Hand Mixer with 7-Speed + Turbo & Dough Hooks (White)',
+    category: 'Home Electronics',
+    price: 699,
+    image: 'https://m.media-amazon.com/images/I/714tLZVt3bL._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/714tLZVt3bL._AC_SL500_.jpg'],
+    description: 'iBELL 280W electric hand mixer with 7-speed control plus turbo, stainless beaters, dough hooks, and cream maker attachments — an affordable and capable baking companion.'
+  },
+
+  // ELECTRIC KETTLES
+  {
+    id: 'he-37',
+    name: 'Havells Aqua Plus Electric Kettle 1.2L 1250W Stainless Steel Cool Touch (Blue)',
+    category: 'Home Electronics',
+    price: 1545,
+    image: 'https://m.media-amazon.com/images/I/51EGS1jWNeS._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/51EGS1jWNeS._AC_SL500_.jpg'],
+    description: 'Havells Aqua Plus 1.2L 1250W electric kettle with 304 stainless steel inner body, cool-touch exterior, auto shut-off, wider mouth, and 2-year doorstep warranty — Blue.'
+  },
+  {
+    id: 'he-38',
+    name: 'Prestige PKOSS 1.5L 1350W Stainless Steel Electric Kettle with Auto Cut-Off (Black)',
+    category: 'Home Electronics',
+    price: 699,
+    image: 'https://m.media-amazon.com/images/I/51Q11RNy8dL._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/51Q11RNy8dL._AC_SL500_.jpg'],
+    description: 'Prestige 1.5L 1350W stainless steel electric kettle with cool-touch handle, automatic cut-off, single-touch lid lock, ISI certification, and 1-year warranty — elegant and reliable.'
+  },
+  {
+    id: 'he-39',
+    name: 'AGARO Esteem Multipurpose Electric Kettle 1.2L 600W with Egg & Grill Rack (Black)',
+    category: 'Home Electronics',
+    price: 1099,
+    image: 'https://m.media-amazon.com/images/I/81C8goHTUbL._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/81C8goHTUbL._AC_SL500_.jpg'],
+    description: 'AGARO Esteem 1.2L 600W multipurpose kettle with stainless steel body, egg rack, grill rack, 3 heating modes, and rapid boil technology — cook water, tea, oats, noodles, and soup in one device.'
+  },
+  {
+    id: 'he-40',
+    name: 'CPENSUS Mini Multipurpose Electric Kettle with Steamer 1.2L 600W Non-Stick Hotpot',
+    category: 'Home Electronics',
+    price: 899,
+    image: 'https://m.media-amazon.com/images/I/61rTSVztYdL._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/61rTSVztYdL._AC_SL500_.jpg'],
+    description: 'CPENSUS 1.2L 600W portable mini electric kettle with non-stick hotpot cooker — cooks hot water, rice, idli, momos, tea, and more. Ideal for travel and small spaces.'
+  },
+
+  // OTG & BREAD MAKERS
+  {
+    id: 'he-41',
+    name: 'AGARO Marvel OTG 25L with Motorised Rotisserie, 5 Heating Modes & Timer (Black)',
+    category: 'Home Electronics',
+    price: 4975,
+    image: 'https://m.media-amazon.com/images/I/71AxsBfZv1L._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/71AxsBfZv1L._AC_SL500_.jpg'],
+    description: 'AGARO Marvel 25L OTG with motorised rotisserie, adjustable temperature, 5 heating modes, and timer — perfect for cake baking, roasting, and grilling with even heat distribution.'
+  },
+  {
+    id: 'he-42',
+    name: 'Glen Bread Maker & Atta Kneader 550W Fully Automatic with 12 Pre-Set Functions (Black)',
+    category: 'Home Electronics',
+    price: 6999,
+    image: 'https://m.media-amazon.com/images/I/61YuYMGEwwL._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/61YuYMGEwwL._AC_SL500_.jpg'],
+    description: 'Glen 550W fully automatic bread maker and atta kneader with time-delay start, 12 pre-set functions, non-stick baking pan, and 3 crust settings — makes 700–900g loaves effortlessly.'
+  },
+
+  // CHOPPERS
+  {
+    id: 'he-43',
+    name: 'INALSA Electric Chopper Bullet 400W with Pure Copper Motor & Twin Blade Technology',
+    category: 'Home Electronics',
+    price: 1779,
+    image: 'https://m.media-amazon.com/images/I/61IlKZwp14L._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/61IlKZwp14L._AC_SL500_.jpg'],
+    description: 'INALSA Bullet 400W electric chopper with 100% pure copper motor, twin blade technology, 0.5L capacity, one-touch operation, and 1.3m power cord — fast, efficient chopping every time.'
+  },
+  {
+    id: 'he-44',
+    name: 'InstaCuppa Electric Chopper 300W 2L Stainless Steel with 3 Attachments & Garlic Peeler',
+    category: 'Home Electronics',
+    price: 2497,
+    image: 'https://m.media-amazon.com/images/I/61EognUyqAL._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/61EognUyqAL._AC_SL500_.jpg'],
+    description: 'InstaCuppa 300W electric chopper with 2L stainless steel bowl, 3 attachments, garlic peeler, egg whisker, and carrot grater — a complete vegetable prep solution for busy kitchens.'
+  },
+
+  // KITCHEN SCALES
+  {
+    id: 'he-45',
+    name: 'Longway LWKWS01 Digital Kitchen Weighing Scale 10kg with Backlit LCD (Gray)',
+    category: 'Home Electronics',
+    price: 299,
+    image: 'https://m.media-amazon.com/images/I/71u8JS441BL._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/71u8JS441BL._AC_SL500_.jpg'],
+    description: 'Longway multipurpose portable digital kitchen weighing scale — 10kg capacity, backlit LCD display, compact design, and 2-year warranty. Ideal for cooking, baking, and meal prep.'
+  },
+  {
+    id: 'he-46',
+    name: 'E-COSMOS SF-400 Digital Food Scale 10kg x 1g High Precision with Large LCD (White)',
+    category: 'Home Electronics',
+    price: 215,
+    image: 'https://m.media-amazon.com/images/I/51isCwA4PLL._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/51isCwA4PLL._AC_SL500_.jpg'],
+    description: 'E-COSMOS SF-400 high-precision digital kitchen scale — 10kg capacity with 1g accuracy, large LCD display, portable design. Perfect for cooking, baking, and precise meal preparation.'
+  },
 ];
