@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './Navbar.module.css';
 import { useState } from 'react';
 import { useCart } from '@/context/CartContext';
@@ -13,9 +14,12 @@ const Navbar = () => {
     <nav className={styles.nav}>
       <div className={`${styles.container} container`}>
         <div className={styles.logo}>
-          <Link href="/">EVEROPEN</Link>
+          <Link href="/">
+            <Image src="/Logo.png" alt="Everopen" width={50} height={50} priority />
+            <span>EVEROPEN</span>
+          </Link>
         </div>
-        
+
         <ul className={`${styles.links} ${isOpen ? styles.active : ''}`}>
           <li><Link href="/" onClick={() => setIsOpen(false)}>Home</Link></li>
           <li><Link href="/shop" onClick={() => setIsOpen(false)}>Shop</Link></li>
@@ -27,8 +31,8 @@ const Navbar = () => {
           <Link href="/cart" className={styles.cartLink}>
             Cart ({cartCount})
           </Link>
-          <button 
-            className={styles.menuToggle} 
+          <button
+            className={styles.menuToggle}
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? 'Close' : 'Menu'}

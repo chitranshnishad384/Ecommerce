@@ -49,7 +49,7 @@ const ProductInfo = ({ product }: ProductInfoProps) => {
         </div>
         <div className={styles.detailItem}>
           <h4>Shipping</h4>
-          <p>Free express shipping on orders over ₹50,000.</p>
+          <p>Free express shipping on orders over ₹2,000.</p>
         </div>
       </div>
     </div>

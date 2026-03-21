@@ -36,12 +36,8 @@ const Footer = () => {
         </div>
 
         <div className={styles.bottom}>
-          <p>&copy; {new Date().getFullYear()} Everopen All rights reserved.</p>
-          <div className={styles.social}>
-            <a href="#">Instagram</a>
-            <a href="#">Twitter</a>
-            <a href="#">LinkedIn</a>
-          </div>
+          <p>Brookus Innovation Pvt. Ltd.</p>
+
         </div>
       </div>
     </footer>
