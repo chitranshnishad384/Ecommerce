@@ -224,4 +224,20 @@
   .summaryCard {
     padding: 1.5rem;
   }
+
+  .page {
+    padding-bottom: 5rem;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .grid {
+    gap: 2.5rem;
+  }
+
+  .summaryCard {
+    top: 80px;
+  }
 }

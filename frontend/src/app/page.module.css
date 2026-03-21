@@ -235,49 +235,91 @@
     padding-top: 100px;
     padding-bottom: 80px;
   }
-  
+
   .heroContent {
     text-align: center;
     align-items: center;
   }
-  
+
   .title {
     font-size: 2.5rem;
   }
-  
+
   .categoryGrid {
     grid-template-columns: 1fr;
     gap: 1rem;
   }
-  
+
   .productGrid {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-  
+
   .cta {
     flex-direction: column;
     width: 100%;
   }
-  
+
   .primaryBtn, .secondaryBtn {
     width: 100%;
     padding: 1.2rem;
   }
-  
+
   .sectionHeader h2 {
     font-size: 1.8rem;
   }
-  
+
   .statement {
     padding: 6rem 1rem;
   }
-  
+
   .statement h2 {
     font-size: 2.22rem;
   }
-  
+
   .statement p {
     font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .title {
+    font-size: clamp(2rem, 9vw, 2.5rem);
+  }
+
+  .decorCircle,
+  .decorCorner,
+  .decorLineVertical {
+    display: none;
+  }
+
+  .categories {
+    padding: 4rem 0;
+  }
+
+  .categoryCard {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .featured {
+    padding-bottom: 4rem;
+  }
+
+  .statement {
+    padding: 4rem 1rem;
+  }
+
+  .statement h2 {
+    font-size: 1.8rem;
+  }
+
+  .productGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
   }
 }

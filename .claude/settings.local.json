@@ -5,7 +5,10 @@
       "Bash(python3:*)",
       "Bash(xargs grep:*)",
       "Bash(echo \":*)",
-      "Bash(\"D:/AIgenLabs/Ecommerce/frontend/src/app/checkout/Checkout.module.css\")"
+      "Bash(\"D:/AIgenLabs/Ecommerce/frontend/src/app/checkout/Checkout.module.css\")",
+      "Bash(grep -n \"max-width.*px\\\\|width.*px\" /d/AIgenLabs/Ecommerce/frontend/src/app/**/*.css /d/AIgenLabs/Ecommerce/frontend/src/components/**/*.css)",
+      "Bash(grep -rn top.*px /d/AIgenLabs/Ecommerce/frontend/src/app --include=*.css)",
+      "Bash(grep:*)"
     ]
   }
 }
