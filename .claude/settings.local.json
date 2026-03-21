@@ -3,7 +3,9 @@
     "allow": [
       "Bash(grep -E \"\\\\.\\(json|ts|js|csv|xml\\)$\")",
       "Bash(python3:*)",
-      "Bash(xargs grep:*)"
+      "Bash(xargs grep:*)",
+      "Bash(echo \":*)",
+      "Bash(\"D:/AIgenLabs/Ecommerce/frontend/src/app/checkout/Checkout.module.css\")"
     ]
   }
 }

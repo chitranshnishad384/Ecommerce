@@ -159,3 +159,15 @@
     grid-template-columns: 1fr;
   }
 }
+
+.field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.error {
+  color: #c0392b;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
